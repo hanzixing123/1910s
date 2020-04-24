@@ -22,7 +22,7 @@ class IndexController extends Controller
                    // dump($silde);
                     //使用 辅助函数  调出
                     $silde=cache('silde');
-                dump($silde);
+                // dump($silde);
                 if(!$silde){
                   //  echo "DB";    
                     $silde=Goods::getIndexSilde();
